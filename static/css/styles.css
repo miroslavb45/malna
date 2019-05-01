@@ -1,0 +1,321 @@
+@font-face {
+    font-family:"Montserrat Light";
+    src: url("static/fonts/Montserrat-Light.woff") format("woff");
+    
+}
+
+
+body{
+    margin: 0;  
+    -webkit-font-smoothing: antialiased;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto 1000px auto;
+    grid-template-areas: '.. main-content ..';
+    height: 100%;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: main-content;
+}
+.homepage-text{
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Montserrat Light';
+    font-weight: lighter;
+    width: 416px;
+    
+    color: white;
+    position: relative;
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+
+
+#home{
+    background: #b91744;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left,#b91744, #d22052d4, #b91744); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left,#b91744, #d22052d4, #b91744);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.page-progress{
+    z-index: 100;
+    position: absolute;
+    
+}
+#header{
+    
+    position: fixed;
+    z-index: 100;
+    right: 100px;
+    top: 20px;
+}
+
+#header li{
+    display: inline;
+    margin-left: 15px;
+    
+}
+#header a{
+    text-decoration: none;
+    color: white;
+    
+    font-family: 'Montserrat Light';
+    font-weight: lighter;
+    font-size: 15px;
+}
+#header ul{
+    float: right;
+}
+#logoWrapper{
+    margin: auto;
+    position: relative;
+    
+    
+    display: grid;
+    grid-area: logoWrapper;
+    grid-template-columns: '.. logo ..';
+    
+    /* background-color: rgb(32, 139, 125); */
+    width: 770px;
+    height: 570px;
+}
+#logo{
+    width: 500px;
+    grid-area: logo;
+    opacity: 0.9;
+}
+#logoWrapper a{
+    cursor: pointer;
+    color: white;
+    font-family: 'Montserrat Light';
+    font-weight: lighter;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+#logoWrapper a:hover{
+    color: #4aae26;
+}
+#kavezo{
+    position: absolute;
+    top: 55px;
+    left: 120px;
+    
+}
+#teazo{
+    position: absolute;
+    right: 140px;
+    top: 55px;
+}
+#dolgozo{
+    position: absolute;
+    top: 280px;
+    left: 40px;
+}
+#tanulo{
+    position: absolute;
+    right: 55px;
+    top: 280px;
+}
+#lazulo{
+    position: absolute;
+    top: 525px;
+    left: 360px
+}
+
+#about{
+    background-color: rgb(80, 206, 122);
+}
+
+#about h1{
+    color: white;
+    font-family: 'Montserrat Light';
+    font-weight: lighter;
+    font-size: 20px;
+    
+}
+#about h4{
+    color: white;
+    font-family: 'Montserrat Light';
+    font-weight: lighter;
+    font-style: italic;
+    float: right;
+}
+
+#contact h1{
+    color: white;
+    font-family: 'Montserrat Light';
+    font-weight: lighter;
+    font-size: 20px;
+    
+}
+#contact h4{
+    color: white;
+    font-family: 'Montserrat Light';
+    font-weight: lighter;
+    font-style: italic;
+    float: right;
+}
+
+#coffefe{
+    background-color: #50ce7a;
+}
+
+.vertical-text-with-line-left{
+    position: relative;
+
+    width: 40px;
+    height: 327px;
+    border-right: 1px solid white;
+    display: inline-block;
+}
+
+.vertical-text-with-line-right{
+    position: relative;
+float: right;
+    width: 40px;
+    height: 250px;
+    border-left: 1px solid white;
+}
+
+.vertical-text-with-line-left h2{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin-left: 0px;
+    margin: 0;
+    position: absolute;
+    top: 40px;
+    left: 3px;
+    color: white;
+    line-height: 0.839;
+    font-family: 'Montserrat Light';
+    font-weight: lighter;
+    font-size: 31px;
+}
+
+.vertical-text-with-line-right h2{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin-left: 0px;
+    margin: 0;
+    position: absolute;
+    top: 35px;
+    left: 8px;
+    color: white;
+    line-height: 0.839;
+    font-family: 'Montserrat Light';
+    font-weight: lighter;
+    font-size: 31px;
+}
+
+.image-to-left-text-right{
+
+    height: 327px;
+    width: calc(100% - 45px);
+    display: inline-block;
+    position: relative;
+}
+.image-to-left-text-right img{
+    margin-left: 36px;
+}
+
+
+.image-to-left-text-right h2{
+    color: white;
+    display: inline-block;
+    font-size: 22px;
+    margin: 0;
+    font-family: 'Montserrat Regular';
+    font-weight: normal;
+    line-height: 1.182;
+    text-align: left;
+    position: absolute;
+    margin-left: 57px;
+    letter-spacing: 3.5px;
+ 
+}
+.image-to-left-text-right p{
+    display: inline-block;
+    position: absolute;
+    top: 55px;
+    margin: 0;
+    margin-left: 57px;
+    font-family: 'Montserrat Light';
+    font-weight: lighter;
+    line-height: 1.5;    
+    font-size: 19px;
+    color: white;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
+
+
+.image-to-right-text-left{
+
+    height: 327px;
+    width: calc(100% - 45px);
+    display: inline-block;
+    position: relative;
+}
+.image-to-right-text-left img{
+    margin-top: 26px;
+    margin-right: 20px;
+    float: right;
+}
+
+.image-to-right-text-left h2{
+    color: white;
+    display: inline-block;
+    font-size: 22px;
+    margin: 0;
+    font-family: 'Montserrat Regular';
+    font-weight: normal;
+    line-height: 1.182;
+    text-align: left;
+    position: absolute;
+  
+    letter-spacing: 3.5px;
+}
+
+.image-to-right-text-left p{
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    margin: 0;
+   
+    font-family: 'Montserrat Light';
+    font-weight: lighter;
+    line-height: 1.5;    
+    font-size: 19px;
+    color: white;
+    letter-spacing: 1.5px;
+    text-align: justify;
+    width: 675px;
+}
+
+.Japánban_nagyon_megihletett_minket_a_teakultúra {
+    font-size: 19px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 1.421;
+    text-align: justifyLeft;
+    position: absolute;
+    left: 182.997px;
+    top: 1521.35px;
+    width: 675px;
+    height: 126px;
+    z-index: 44;
+  }
+  
+  #teaWrapper{
+      margin-top: 80px;
+  }
