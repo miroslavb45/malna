@@ -385,7 +385,7 @@ float: right;
 
        
         font-family: 'Montserrat Light';
-        font-weight: lighter;
+        font-weight: normal;
         line-height: 1.4;    
         font-size: calc(3vw + 0.3vh);
         color: white;
