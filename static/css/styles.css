@@ -362,14 +362,14 @@ float: right;
 
     .mobile-text{
      
-        padding: 10px;
-        padding-top: 60px;
+        padding: 20px;
+        padding-top: 31px;
        
  
     }
     .mobile-text h2{
         color: white;
-        font-size: 6vw;
+        font-size: 5vw;
         margin: 0;
         font-family: 'Montserrat Regular';
         font-weight: normal;
@@ -384,8 +384,8 @@ float: right;
         position: relative;
 
        
-        font-family: 'Montserrat Light';
-        font-weight: normal;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
         line-height: 1.4;    
         font-size: calc(3vw + 0.3vh);
         color: white;
