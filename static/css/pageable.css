@@ -102,6 +102,7 @@ section {
     opacity: 0;
   }
 }
+@media only screen and (min-width: 426px) {
 .anchors {
   position: fixed;
   top: 25px;
@@ -239,7 +240,7 @@ nav ul li:hover a span {
   height: 10px;
   margin: -5px 0px 0px -5px;
 }
-
+}s
 #settings-open {
   color: #fff;
   font-size: 35px;

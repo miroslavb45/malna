@@ -1,3 +1,8 @@
+@font-face {
+    font-family:"Montserrat Light";
+    src: url("static/fonts/Montserrat-Light.woff") format("woff");
+    
+}
 
 
 body{
@@ -12,6 +17,24 @@ body{
     height: 100%;
 }
 
+
+
+.page-progress{
+    z-index: 100;
+    position: absolute;
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1000px) {
+    
+    #home{
+        background: #b91744;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left,#b91744, #d22052d4, #b91744); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left,#b91744, #d22052d4, #b91744);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+
 .main-content{
     display: flex;
     flex-direction: column;
@@ -21,9 +44,9 @@ body{
 .homepage-text{
     margin: auto;
     font-size: 20px;
-    font-family: Montserrat;
+    font-family: 'Montserrat Light';
     font-weight: lighter;
-  
+    width: 416px;
     
     color: white;
     position: relative;
@@ -33,18 +56,9 @@ body{
 }
 
 
-#home{
-    background: #b91744;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left,#b91744, #d22052d4, #b91744); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left,#b91744, #d22052d4, #b91744);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 
 
-.page-progress{
-    z-index: 100;
-    position: absolute;
-    
-}
+
 #header{
     
     position: fixed;
@@ -62,7 +76,7 @@ body{
     text-decoration: none;
     color: white;
     
-    font-family: Montserrat;
+    font-family: 'Montserrat Light';
     font-weight: lighter;
     font-size: 15px;
 }
@@ -90,7 +104,7 @@ body{
 #logoWrapper a{
     cursor: pointer;
     color: white;
-    font-family: Montserrat;
+    font-family: 'Montserrat Light';
     font-weight: lighter;
     font-size: 20px;
     text-decoration: none;
@@ -133,14 +147,14 @@ body{
 
 #about h1{
     color: white;
-    font-family: Montserrat;
+    font-family: 'Montserrat Light';
     font-weight: lighter;
     font-size: 20px;
     
 }
 #about h4{
     color: white;
-    font-family: Montserrat;
+    font-family: 'Montserrat Light';
     font-weight: lighter;
     font-style: italic;
     float: right;
@@ -148,14 +162,14 @@ body{
 
 #contact h1{
     color: white;
-    font-family: Montserrat;
+    font-family: 'Montserrat Light';
     font-weight: lighter;
     font-size: 20px;
     
 }
 #contact h4{
     color: white;
-    font-family: Montserrat;
+    font-family: 'Montserrat Light';
     font-weight: lighter;
     font-style: italic;
     float: right;
@@ -192,7 +206,7 @@ float: right;
     left: 3px;
     color: white;
     line-height: 0.839;
-    font-family: Montserrat;
+    font-family: 'Montserrat Light';
     font-weight: lighter;
     font-size: 31px;
 }
@@ -207,7 +221,7 @@ float: right;
     left: 8px;
     color: white;
     line-height: 0.839;
-    font-family: Montserrat;
+    font-family: 'Montserrat Light';
     font-weight: lighter;
     font-size: 31px;
 }
@@ -229,7 +243,7 @@ float: right;
     display: inline-block;
     font-size: 22px;
     margin: 0;
-    font-family: Montserrat;
+    font-family: 'Montserrat Regular';
     font-weight: normal;
     line-height: 1.182;
     text-align: left;
@@ -244,7 +258,7 @@ float: right;
     top: 55px;
     margin: 0;
     margin-left: 57px;
-    font-family: Montserrat;
+    font-family: 'Montserrat Light';
     font-weight: lighter;
     line-height: 1.5;    
     font-size: 19px;
@@ -272,7 +286,7 @@ float: right;
     display: inline-block;
     font-size: 22px;
     margin: 0;
-    font-family: Montserrat;
+    font-family: 'Montserrat Regular';
     font-weight: normal;
     line-height: 1.182;
     text-align: left;
@@ -286,17 +300,401 @@ float: right;
     position: absolute;
     top: 50px;
     margin: 0;
-   width: 660px;
-    font-family: Montserrat;
+   
+    font-family: 'Montserrat Light';
     font-weight: lighter;
     line-height: 1.5;    
     font-size: 19px;
     color: white;
     letter-spacing: 1.5px;
     text-align: justify;
-    
+    width: 675px;
 }
+
   
   #teaWrapper{
       margin-top: 80px;
   }
+} 
+
+  @media screen and (max-width: 425px) {
+    .vertical-text-with-line-left{
+        position: absolute;
+        width: 31px;
+        height: 156px;
+        left: 0;
+        top: 50px;
+        border-right: 1px solid white;
+        display: inline-block;
+    }
+    .vertical-text-with-line-left h2{
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        margin-left: 0px;
+        margin: 0;
+        position: absolute;
+        top: 10px;
+        left: 7px;
+        color: white;
+        line-height: 0.839;
+        font-family: 'Montserrat Light';
+        font-weight: lighter;
+        font-size: 18px;
+    }
+
+    
+
+
+
+    .mobile-vertical-text-with-image{
+        position: relative;
+    
+    }
+
+    .mobile-vertical-text-with-image img{
+        height: 256px;
+        width: auto;
+        display:block;
+        margin:auto;
+    }
+
+
+
+    .mobile-text{
+     
+        padding: 10px;
+        padding-top: 60px;
+       
+ 
+    }
+    .mobile-text h2{
+        color: white;
+        font-size: 6vw;
+        margin: 0;
+        font-family: 'Montserrat Regular';
+        font-weight: normal;
+        line-height: 1.182;
+        text-align: center;
+      
+      
+        letter-spacing: 3.5px;
+    }
+    .mobile-text p{
+        display: block;
+        position: relative;
+
+       
+        font-family: 'Montserrat Light';
+        font-weight: lighter;
+        line-height: 1.4;    
+        font-size: calc(3vw + 0.3vh);
+        color: white;
+        letter-spacing: 1.5px;
+        text-align: justify;
+    
+    }
+
+    .mobile-vertical-text-with-image{
+        position: relative;
+    }
+
+    /* Hambureger menu */
+
+.header {
+    /* background-color: #fff; */
+    /* box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); */
+    position: fixed;
+    width: 100%;
+    z-index: 200;
+  
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+    font-family: 'Montserrat Light';
+    font-weight: lighter;
+    line-height: 1.5;    
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .header li a:hover,
+  .header .menu-btn:hover {
+    background-color: rgb(40, 207, 104)
+  }
+  
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  /* menu */
+  
+  .header .menu {
+    position: absolute;
+    width: 100%;
+    max-height: 0;
+ 
+    transition: max-height .2s ease-out;
+    background: rgb(207, 40, 90);
+  }
+  
+  /* menu icon */
+  
+  .header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 40px 20px;
+    position: relative;
+    user-select: none;
+    z-index: 201;
+  }
+  
+  .header .menu-icon .navicon {
+    background: rgb(255, 255, 255);
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: rgb(255, 255, 255);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  /* menu btn */
+  
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  
+  /* 48em = 768px */
+  
+  @media (min-width: 48em) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+  }
+
+  /* /// */
+  }
+  @media only screen and (min-width: 425px) {
+      
+   
+  }
+
+
+
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 768px) {
+    #menu-btn{
+        display: none;
+    }
+   
+} 
+
+
+@media only screen and (max-height: 850px) and (min-width: 768px){
+    
+
+    #logoWrapper{
+        height: 450px;
+    }
+    #logo{
+        width: 400px;
+    }
+    .homepage-text {
+        margin: auto;
+        font-size: 17px;
+
+        width: 354px;
+        color: white;
+    
+    }
+    #logoWrapper a {
+       
+        font-size: 16px;
+  
+    }
+
+    #kavezo {
+       
+        top: 55px;
+        left: 152px;
+    }
+
+    #teazo {
+        position: absolute;
+        right: 168px;
+        top: 55px;
+    }
+
+    #dolgozo {
+        position: absolute;
+        top: 280px;
+        left: 116px;
+    }
+
+    #tanulo {
+        position: absolute;
+        right: 129px;
+        top: 280px;
+    }
+
+    #lazulo {
+        position: absolute;
+        top: 413px;
+        left: 360px;
+    }
+
+
+    .vertical-text-with-line-left {
+   
+        height: 260px;
+      
+    }
+
+    .vertical-text-with-line-left h2 {
+      
+        top: 25px;
+        left: 7px;
+       
+        font-size: 26px;
+    }
+    .image-to-left-text-right {
+        height: 260px;
+       
+    }
+
+    .image-to-left-text-right img {
+        margin-left: 36px;
+        height: 100%;
+    }
+    .image-to-left-text-right p {
+      
+        top: 55px;
+      
+        margin-left: 57px;
+
+        font-size: 16px;
+        color: white;
+        letter-spacing: 1.5px;
+        text-align: justify;
+    }
+
+    .image-to-left-text-right h2 {
+      
+        font-size: 20px;
+  
+    }
+
+    /* right */
+    .vertical-text-with-line-right {
+   
+        height: 230px;
+      
+    }
+
+    .vertical-text-with-line-right h2 {
+      
+        top: 25px;
+        left: 7px;
+       
+        font-size: 26px;
+    }
+    .image-to-right-text-left img {
+        margin-right: 36px;
+        height: 80%;
+    }
+
+    .image-to-right-text-left {
+        height: 230px;
+      
+    }
+
+    .image-to-right-text-left p {
+      
+      
+      
+      
+
+        font-size: 16px;
+  
+      
+    }
+
+    .image-to-right-text-left h2 {
+      
+        font-size: 20px;
+  
+    }
+    
+}
+
+
+
