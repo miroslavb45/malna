@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="static/css/styles.css">
     <style>
         @import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
-        </style>
+    </style>
     
 </head>
 <body>
@@ -19,14 +19,14 @@
     
     
     <div id="header" class="anchors header">
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-            <ul class="menu">
-                    <li ><a href="#home">Főoldal</a></li>
-                    <li ><a href="#coffefe">Kávé</a></li>
-                    <li ><a href="#contact">Elérhetőségek</a></li>
-            </ul>
-
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li ><a href="#home">Főoldal</a></li>
+            <li ><a href="#coffefe">Kávé</a></li>
+            <li ><a href="#contact">Elérhetőségek</a></li>
+        </ul>
+        
     </div>
     <div id="pages">
         
@@ -76,7 +76,8 @@
                             
                         </div>
                     </div>
-                    <div id="teaWrapper">
+                    <div id="tea" >
+                        
                         
                         <div class="vertical-text-with-line-right">
                             <h2>Teázó</h2>
@@ -103,52 +104,58 @@
                 </div>
             </div>
             
-            
-            <!-- <div class="textCenter">
-                
-            </div> -->
         </div>
         
         <div id="home" class="mobile" data-anchor="home" style="background: rgb(207, 40, 90)">
             
             
-            <!-- <p>Home</p> -->
+     
         </div>
         
         <div id="coffefe" class="mobile" data-anchor="coffefe"  style="background: rgb(40, 207, 104)">
-            
-            
             <div id="coffeWrapper">
                 
                 <div class="mobile-text">
                     
                     <h2>Szereted a presszót?</h2>
                     <p>Mi megőrülünk érte! Annyira hogy csakis la pavoni gépeink vannak. a la pavoni az a cég ami a világon elsőként kezdett presszógépeket gyártani, tehát a tapasztalatuk végtelen de mi mégsem ezért szerettünk beléjük hanem az europiccola miatt.  </p>
-                        
+                    
                     <p>Az europiccola egy kézi működtetésű presszógép amit 1961 óta majdnem változatlan formában gyártanak és lelke van - hozzáértő kéz nagyon finom presszót tud vele facsarni.  
                         A gőzmálnában egy nagy kétkaros automata presszógéppel és két kézi europiccolával találkozhattok, kívánság szerint abból kapjátok a kávét amelyikből szeretnétek!
                     </p>
                     
                 </div>
                 
+                <div class="mobile-vertical-text-with-image">
+                    <div class="vertical-text-with-line-left">
+                        <h2>Kávézó</h2>
+                    </div>
+                    <img src="static/img/la_pavoni.png">
+                </div>
+            </div>
+        </div>
+        
+        <div id="tea" class="mobile" data-anchor="tea"  style="background: rgb(40, 57, 207)">
+            <div id="coffeWrapper">
+                
+                <div class="mobile-text">
+                    
+                    <h2>Szereted a teát?</h2>
+                    <p>Mi megőrülünk érte! Annyira hogy csakis la pavoni gépeink vannak. a la pavoni az a cég ami a világon elsőként kezdett presszógépeket gyártani, tehát a tapasztalatuk végtelen de mi mégsem ezért szerettünk beléjük hanem az europiccola miatt.  </p>
+                    
+                    <p>Az europiccola egy kézi működtetésű presszógép amit 1961 óta majdnem változatlan formában gyártanak és lelke van - hozzáértő kéz nagyon finom presszót tud vele facsarni.  
+                        A gőzmálnában egy nagy kétkaros automata presszógéppel és két kézi europiccolával találkozhattok, kívánság szerint abból kapjátok a kávét amelyikből szeretnétek!
+                    </p>
+                    
+                </div>
                 
                 <div class="mobile-vertical-text-with-image">
                     <div class="vertical-text-with-line-left">
                         <h2>Kávézó</h2>
-                        
                     </div>
                     <img src="static/img/la_pavoni.png">
-
                 </div>
-                
             </div>
-            
-            
-            
-            
-            
-            
-            
         </div>
         
         
@@ -168,7 +175,7 @@
                 
                 
             </div>
-            <div class="page-progress">
+            <div id="pageProgess" class="page-progress" style="display: none">
                 <svg class="radial-svg" width="50" height="50" transform="rotate(-90 0 0)">
                     <circle class="radial-fill" stroke-width="5" r="14" cx="20" cy="20" style="stroke-dashoffset: 70.3717;"></circle>
                 </svg>
@@ -177,33 +184,40 @@
             <script src="static/js/mobileView.js"></script>
             <script src="static/js/pageable.js"></script>
             <script>
+                  console.log(screen.width);
                 setPages();
-                
-                
-                const pages= new Pageable("#pages" ,{
-                    animation: 300,
+                if(screen.width > 425){
+                    console.log("Pagable");
+                    console.log(window.innerWidth);
+
+                    document.getElementById("pageProgess").style.display = "block";
+                    
+                    const pages= new Pageable("#pages" ,{
+                        animation: 300,
+                        
+                        
+                    });
                     
                     
-                });
-                
-                
-                const bar = document.querySelector(".bar");
-                const svg = document.querySelector("svg");
-                const circle = svg.querySelector("circle");
-                const r = circle.getAttribute("r");
-                const circ = 2 * Math.PI * r;
-                
-                
-                pages.on("scroll", update);
-                
-                function update(data) {
-                    const pos = round(1 - (data.max - data.scrolled) / data.max, 3);
+                    const bar = document.querySelector(".bar");
+                    const svg = document.querySelector("svg");
+                    const circle = svg.querySelector("circle");
+                    const r = circle.getAttribute("r");
+                    const circ = 2 * Math.PI * r;
                     
-                    circle.style.strokeDashoffset = circ - circ * pos;
-                    // bar.style.transform = `scale(${pos}, 1)`;
-                }
-                function round(value, decimals) {
-                    return Number(Math.round(value + "e" + decimals) + "e-" + decimals);
+                    
+                    pages.on("scroll", update);
+                    
+                    function update(data) {
+                        const pos = round(1 - (data.max - data.scrolled) / data.max, 3);
+                        
+                        circle.style.strokeDashoffset = circ - circ * pos;
+                        // bar.style.transform = `scale(${pos}, 1)`;
+                    }
+                    function round(value, decimals) {
+                        return Number(Math.round(value + "e" + decimals) + "e-" + decimals);
+                    }
+                    
                 }
                 
                 
