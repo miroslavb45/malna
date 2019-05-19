@@ -319,8 +319,8 @@ float: right;
       margin-top: 80px;
   }
 } 
-
-@media screen and (max-width: 425px) {
+/* Mobile */
+@media screen and (max-width: 767px) {
       #home{
           height: 900px;
       }
@@ -354,7 +354,7 @@ float: right;
         position: relative;
         display: grid;
 
-        width: 100%;
+        width: 320px;
         height: 500px;
     }
     #logo{
@@ -377,28 +377,28 @@ float: right;
     #kavezo{
         position: absolute;
         top: 80px;
-        left: 50px;
+        left: 10px;
         
     }
     #teazo{
         position: absolute;
-        right: 60px;
+        right: 14px;
         top: 80px;
     }
     #dolgozo{
         position: absolute;
-        top: 330px;
-        left: 20px;
+        top: 350px;
+        left: 5px;
     }
     #tanulo{
         position: absolute;
-        right: 30px;
-        top: 330px;
+        right: 14px;
+        top: 350px;
     }
     #lazulo{
         position: absolute;
         top: 400px;
-        left: 175px
+        left: 140px
     }
     .vertical-text-with-line-left{
         position: absolute;
@@ -637,28 +637,9 @@ float: right;
     top: 0;
   }
   
-  /* 48em = 768px */
-  
-  @media (min-width: 48em) {
-    .header li {
-      float: left;
-    }
-    .header li a {
-      padding: 20px 30px;
-    }
-    .header .menu {
-      clear: none;
-      float: right;
-      max-height: none;
-    }
-    .header .menu-icon {
-      display: none;
-    }
+ 
   }
-
-  /* /// */
-  }
-  @media only screen and (min-width: 425px) {
+  @media only screen and (min-width: 768px) {
         .header .menu-btn {
     display: none;
   }
@@ -672,7 +653,7 @@ float: right;
 
 
   /* Extra small devices (phones, 600px and down) */
-@media only screen and (min-width: 500px) and (max-width: 1200px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
     #menu-btn{
         display: none;
     }
@@ -964,7 +945,7 @@ float: right;
     color: white;
     letter-spacing: 1.5px;
     text-align: justify;
-    width: 425px;
+    width: calc(100% - 320px);
 }
 
   

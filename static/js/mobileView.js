@@ -2,7 +2,7 @@ function setPages(){
     const height = screen.height;
     const width = screen.width;
 
-    if(width <= 425){
+    if(width < 768){
         let normalPages = document.getElementsByClassName("web");
         [...normalPages].forEach(normalPage => {
             normalPage.remove();

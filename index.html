@@ -211,11 +211,10 @@
             <script src="static/js/mobileView.js"></script>
             <script src="static/js/pageable.js"></script>
             <script>
-                  console.log(screen.width);
+                console.log(screen.width, screen.height)
                 setPages();
-                if(screen.width > 425){
-                    console.log("Pagable");
-                    console.log(window.innerWidth);
+                if(screen.width > 768){
+             
 
                     document.getElementById("pageProgess").style.display = "block";
                     
