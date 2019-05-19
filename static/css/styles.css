@@ -1,9 +1,5 @@
-@font-face {
-    font-family:"Montserrat";
-    src: url("static/fonts/Montserrat-Light.woff") format("woff");
-    
-}
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
 
 body{
     margin: 0;  
@@ -47,7 +43,7 @@ body{
 .homepage-text{
     margin: auto;
     font-size: 20px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     width: 416px;
     
@@ -79,7 +75,7 @@ body{
     text-decoration: none;
     color: white;
     
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 15px;
 }
@@ -107,7 +103,7 @@ body{
 #logoWrapper a{
     cursor: pointer;
     color: white;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-decoration: none;
@@ -150,14 +146,14 @@ body{
 
 #about h1{
     color: white;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 20px;
     
 }
 #about h4{
     color: white;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-style: italic;
     float: right;
@@ -165,14 +161,14 @@ body{
 
 #contact h1{
     color: white;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 20px;
     
 }
 #contact h4{
     color: white;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-style: italic;
     float: right;
@@ -209,7 +205,7 @@ float: right;
     left: 3px;
     color: white;
     line-height: 0.839;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 31px;
 }
@@ -224,7 +220,7 @@ float: right;
     left: 8px;
     color: white;
     line-height: 0.839;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 31px;
 }
@@ -261,7 +257,7 @@ float: right;
     top: 55px;
     margin: 0;
     margin-left: 57px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     line-height: 1.5;    
     font-size: 19px;
@@ -304,7 +300,7 @@ float: right;
     top: 50px;
     margin: 0;
    
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     line-height: 1.5;    
     font-size: 19px;
@@ -336,7 +332,8 @@ float: right;
     .homepage-text{
         margin: auto;
         margin-top: 30px;
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
         line-height: 1.4;    
         width: 283px;
         
@@ -365,7 +362,7 @@ float: right;
     #logoWrapper a{
         cursor: pointer;
         color: white;
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-size: 16px;
         text-decoration: none;
@@ -420,7 +417,7 @@ float: right;
         left: 7px;
         color: white;
         line-height: 0.839;
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-size: 18px;
     }
@@ -444,7 +441,7 @@ float: right;
         right: 7px;
         color: white;
         line-height: 0.839;
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-size: 18px;
     }
@@ -500,7 +497,7 @@ float: right;
         position: relative;
 
        
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         line-height: 1.6;    
         font-size: 14px;
@@ -539,7 +536,7 @@ float: right;
     padding: 20px 20px;
     border-right: 1px solid #f4f4f4;
     text-decoration: none;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     line-height: 1.5;    
     font-size: 16px;
@@ -683,7 +680,7 @@ float: right;
 .homepage-text{
     margin: auto;
     font-size: 20px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     width: 416px;
     
@@ -715,7 +712,7 @@ float: right;
     text-decoration: none;
     color: white;
     
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 15px;
 }
@@ -742,7 +739,7 @@ float: right;
 #logoWrapper a{
     cursor: pointer;
     color: white;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-decoration: none;
@@ -785,14 +782,14 @@ float: right;
 
 #about h1{
     color: white;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 20px;
     
 }
 #about h4{
     color: white;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-style: italic;
     float: right;
@@ -800,14 +797,14 @@ float: right;
 
 #contact h1{
     color: white;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 20px;
     
 }
 #contact h4{
     color: white;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-style: italic;
     float: right;
@@ -844,7 +841,7 @@ float: right;
     left: 3px;
     color: white;
     line-height: 0.839;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 25px;
 }
@@ -859,7 +856,7 @@ float: right;
     left: 8px;
     color: white;
     line-height: 0.839;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 25px;
 }
@@ -896,7 +893,7 @@ float: right;
     top: 55px;
     margin: 0;
     margin-left: 57px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     line-height: 1.5;    
     font-size: 16px;
@@ -939,7 +936,7 @@ float: right;
     top: 50px;
     margin: 0;
    
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     line-height: 1.5;    
     font-size: 16px;
