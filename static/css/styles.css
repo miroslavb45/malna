@@ -320,10 +320,87 @@ float: right;
   }
 } 
 
-  @media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {
       #home{
-          height: 600px;
+          height: 900px;
       }
+
+      .main-content{
+        /* display: grid; */
+        flex-direction: column;
+        justify-content: center;
+        grid-area: main-content;
+    }
+
+
+    .homepage-text{
+        margin: auto;
+        font-size: 14px;
+        font-family: 'Montserrat Light';
+        font-weight: lighter;
+        width: 283px;
+        
+        color: white;
+        position: relative;
+        text-align: justify;
+        text-justify: auto;
+        letter-spacing: 1px
+        /* text-align: justifyLeft; */
+        
+    }
+
+    #logoWrapper{
+        margin: auto;
+        position: relative;
+        display: grid;
+
+        width: 100%;
+        height: 500px;
+    }
+    #logo{
+        width: 305px;
+        grid-area: logo;
+        opacity: 0.9;
+    }
+    #logoWrapper a{
+        cursor: pointer;
+        color: white;
+        font-family: 'Montserrat Light';
+        font-weight: lighter;
+        font-size: 16px;
+        text-decoration: none;
+        
+    }
+    
+    #logoWrapper a:hover{
+        color: #4aae26;
+    }
+    #kavezo{
+        position: absolute;
+        top: 80px;
+        left: 50px;
+        
+    }
+    #teazo{
+        position: absolute;
+        right: 60px;
+        top: 80px;
+    }
+    #dolgozo{
+        position: absolute;
+        top: 330px;
+        left: 20px;
+    }
+    #tanulo{
+        position: absolute;
+        right: 30px;
+        top: 330px;
+    }
+    #lazulo{
+        position: absolute;
+        top: 400px;
+        left: 175px
+    }
     .vertical-text-with-line-left{
         position: absolute;
         width: 31px;
@@ -573,7 +650,14 @@ float: right;
         height: 100%;
     }
     
+    .homepage-text {
+        margin: auto;
+        font-size: 17px;
 
+        width: 354px;
+        color: white;
+    
+    }
 
 .main-content{
     display: flex;
