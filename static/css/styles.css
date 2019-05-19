@@ -20,9 +20,9 @@ body{
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1500px) {
     #tea{
-        margin-top: 20vh;
+        margin-top: 10vh;
     }
     
     .grid-container{
@@ -651,7 +651,7 @@ float: right;
 
 
   /* Extra small devices (phones, 600px and down) */
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
+@media only screen and (min-width: 768px) and (max-width: 1500px) {
     #menu-btn{
         display: none;
     }
@@ -956,7 +956,7 @@ float: right;
 } 
 
 
-@media only screen and (max-height: 850px) and (min-width: 768px) and (max-width: 1200px){
+@media only screen and (max-height: 850px) and (min-width: 768px) and (max-width: 1500px){
   
     
     #tea{
