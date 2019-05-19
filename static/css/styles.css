@@ -336,7 +336,7 @@ float: right;
     .homepage-text{
         margin: auto;
         margin-top: 30px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Montserrat Light';
         line-height: 1.4;    
         width: 283px;
         
@@ -366,7 +366,6 @@ float: right;
         cursor: pointer;
         color: white;
         font-family: 'Montserrat Light';
-        font-weight: lighter;
         font-size: 16px;
         text-decoration: none;
         
@@ -469,8 +468,8 @@ float: right;
         height: 159px;
     }
 #tea{
-    padding-bottom: 40px;
-    margin-top: 40px;
+    padding-bottom: 20px;
+    margin-top: 20px;
 }
 
     .mobile-text{
@@ -750,7 +749,6 @@ float: right;
     grid-area: logoWrapper;
     grid-template-columns: '.. logo ..';
     
-    /* background-color: rgb(32, 139, 125); */
     width: 600px;
     height: 570px;
 }
@@ -795,7 +793,7 @@ float: right;
 }
 #lazulo{
     position: absolute;
-    top: 525px;
+    top: 480px;
     left: 270px
 }
 
@@ -1008,31 +1006,31 @@ float: right;
     #kavezo {
        
         top: 55px;
-        left: 152px;
+        left: 80px;
     }
 
     #teazo {
         position: absolute;
-        right: 168px;
+        right: 90px;
         top: 55px;
     }
 
     #dolgozo {
         position: absolute;
         top: 280px;
-        left: 116px;
+        left: 50px;
     }
 
     #tanulo {
         position: absolute;
-        right: 129px;
+        right: 55px;
         top: 280px;
     }
 
     #lazulo {
         position: absolute;
         top: 413px;
-        left: 360px;
+        left: 274px;
     }
 
 
