@@ -335,16 +335,17 @@ float: right;
 
     .homepage-text{
         margin: auto;
-        font-size: 14px;
-        font-family: 'Montserrat Light';
-        font-weight: lighter;
+        margin-top: 50px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: light;
+        line-height: 1.4;    
         width: 283px;
         
         color: white;
         position: relative;
         text-align: justify;
         text-justify: auto;
-        letter-spacing: 1px
+        letter-spacing: 1.5px
         /* text-align: justifyLeft; */
         
     }
