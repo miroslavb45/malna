@@ -1,5 +1,5 @@
 @font-face {
-    font-family:"Montserrat Light";
+    font-family:"Montserrat";
     src: url("static/fonts/Montserrat-Light.woff") format("woff");
     
 }
@@ -47,8 +47,8 @@ body{
 .homepage-text{
     margin: auto;
     font-size: 20px;
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     width: 416px;
     
     color: white;
@@ -79,8 +79,8 @@ body{
     text-decoration: none;
     color: white;
     
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     font-size: 15px;
 }
 #header ul{
@@ -107,8 +107,8 @@ body{
 #logoWrapper a{
     cursor: pointer;
     color: white;
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     font-size: 20px;
     text-decoration: none;
     
@@ -150,30 +150,30 @@ body{
 
 #about h1{
     color: white;
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     font-size: 20px;
     
 }
 #about h4{
     color: white;
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     font-style: italic;
     float: right;
 }
 
 #contact h1{
     color: white;
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     font-size: 20px;
     
 }
 #contact h4{
     color: white;
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     font-style: italic;
     float: right;
 }
@@ -209,8 +209,8 @@ float: right;
     left: 3px;
     color: white;
     line-height: 0.839;
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     font-size: 31px;
 }
 
@@ -224,8 +224,8 @@ float: right;
     left: 8px;
     color: white;
     line-height: 0.839;
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     font-size: 31px;
 }
 
@@ -261,8 +261,8 @@ float: right;
     top: 55px;
     margin: 0;
     margin-left: 57px;
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     line-height: 1.5;    
     font-size: 19px;
     color: white;
@@ -304,8 +304,8 @@ float: right;
     top: 50px;
     margin: 0;
    
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     line-height: 1.5;    
     font-size: 19px;
     color: white;
@@ -336,7 +336,7 @@ float: right;
     .homepage-text{
         margin: auto;
         margin-top: 30px;
-        font-family: 'Montserrat Light';
+        font-family: 'Montserrat';
         line-height: 1.4;    
         width: 283px;
         
@@ -365,7 +365,8 @@ float: right;
     #logoWrapper a{
         cursor: pointer;
         color: white;
-        font-family: 'Montserrat Light';
+        font-family: 'Montserrat';
+        font-weight: 300;
         font-size: 16px;
         text-decoration: none;
         
@@ -419,8 +420,8 @@ float: right;
         left: 7px;
         color: white;
         line-height: 0.839;
-        font-family: 'Montserrat Light';
-        font-weight: lighter;
+        font-family: 'Montserrat';
+        font-weight: 300;
         font-size: 18px;
     }
 
@@ -443,8 +444,8 @@ float: right;
         right: 7px;
         color: white;
         line-height: 0.839;
-        font-family: 'Montserrat Light';
-        font-weight: lighter;
+        font-family: 'Montserrat';
+        font-weight: 300;
         font-size: 18px;
     }
 
@@ -500,7 +501,7 @@ float: right;
 
        
         font-family: 'Open Sans', sans-serif;
-        font-weight: lighter;
+        font-weight: 300;
         line-height: 1.6;    
         font-size: 14px;
         color: white;
@@ -538,8 +539,8 @@ float: right;
     padding: 20px 20px;
     border-right: 1px solid #f4f4f4;
     text-decoration: none;
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     line-height: 1.5;    
     font-size: 16px;
     color: rgb(255, 255, 255);
@@ -682,8 +683,8 @@ float: right;
 .homepage-text{
     margin: auto;
     font-size: 20px;
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     width: 416px;
     
     color: white;
@@ -714,8 +715,8 @@ float: right;
     text-decoration: none;
     color: white;
     
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     font-size: 15px;
 }
 #header ul{
@@ -741,8 +742,8 @@ float: right;
 #logoWrapper a{
     cursor: pointer;
     color: white;
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     font-size: 20px;
     text-decoration: none;
     
@@ -784,30 +785,30 @@ float: right;
 
 #about h1{
     color: white;
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     font-size: 20px;
     
 }
 #about h4{
     color: white;
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     font-style: italic;
     float: right;
 }
 
 #contact h1{
     color: white;
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     font-size: 20px;
     
 }
 #contact h4{
     color: white;
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     font-style: italic;
     float: right;
 }
@@ -843,8 +844,8 @@ float: right;
     left: 3px;
     color: white;
     line-height: 0.839;
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     font-size: 25px;
 }
 
@@ -858,8 +859,8 @@ float: right;
     left: 8px;
     color: white;
     line-height: 0.839;
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     font-size: 25px;
 }
 
@@ -895,8 +896,8 @@ float: right;
     top: 55px;
     margin: 0;
     margin-left: 57px;
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     line-height: 1.5;    
     font-size: 16px;
     color: white;
@@ -938,8 +939,8 @@ float: right;
     top: 50px;
     margin: 0;
    
-    font-family: 'Montserrat Light';
-    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-weight: 300;
     line-height: 1.5;    
     font-size: 16px;
     color: white;
