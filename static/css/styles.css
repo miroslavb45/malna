@@ -335,9 +335,8 @@ float: right;
 
     .homepage-text{
         margin: auto;
-        margin-top: 50px;
+        margin-top: 30px;
         font-family: 'Open Sans', sans-serif;
-        font-weight: light;
         line-height: 1.4;    
         width: 283px;
         
@@ -406,7 +405,7 @@ float: right;
         position: absolute;
         width: 31px;
         height: 156px;
-        left: 0;
+        left: 5px;
         top: 50px;
         border-right: 1px solid white;
         display: inline-block;
@@ -426,6 +425,31 @@ float: right;
         font-size: 18px;
     }
 
+    .vertical-text-with-line-right{
+        position: absolute;
+        width: 31px;
+        height: 130px;
+        right: 5px;
+        top: 20px;
+        border-left: 1px solid white;
+        display: inline-block;
+    }
+    .vertical-text-with-line-right h2{
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        margin-left: 0px;
+        margin: 0;
+        position: absolute;
+        top: 10px;
+        right: 7px;
+        color: white;
+        line-height: 0.839;
+        font-family: 'Montserrat Light';
+        font-weight: lighter;
+        font-size: 18px;
+    }
+
+
     
 
 
@@ -441,19 +465,26 @@ float: right;
         display:block;
         margin:auto;
     }
-
-
+    #teaImage{
+        height: 159px;
+    }
+#tea{
+    padding-bottom: 40px;
+    margin-top: 40px;
+}
 
     .mobile-text{
      
-        padding: 20px;
+        padding: 26px;
         padding-top: 31px;
         padding-bottom: 0;
  
     }
+
+    
     .mobile-text h2{
         color: white;
-        font-size: 5vw;
+        font-size: 20px;
         margin: 0;
         font-family: 'Montserrat Regular';
         font-weight: normal;
@@ -462,6 +493,7 @@ float: right;
       
       
         letter-spacing: 3.5px;
+        margin-bottom: 30px;
     }
     .mobile-text p{
         display: block;
@@ -469,12 +501,13 @@ float: right;
 
        
         font-family: 'Open Sans', sans-serif;
-        font-weight: light;
-        line-height: 1.4;    
-        font-size: calc(3vw + 0.3vh);
+        font-weight: lighter;
+        line-height: 1.6;    
+        font-size: 14px;
         color: white;
-        letter-spacing: 1.5px;
-        text-align: justify;
+        letter-spacing: 1.8px;
+        text-align: center;
+        margin-bottom: 20px;
     
     }
 
