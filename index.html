@@ -216,9 +216,10 @@
                     function update(data) {
                         const pos = round(1 - (data.max - data.scrolled) / data.max, 3);
                         const circle = document.querySelector("circle");
+                        console.log(circle);
                     const r = circle.getAttribute("r");
                     const circ = 2 * Math.PI * r;
-                        this.circle.style.strokeDashoffset = circ - circ * pos;
+                        circle.style.strokeDashoffset = circ - circ * pos;
                     }
                     function round(value, decimals) {
                         return Number(Math.round(value + "e" + decimals) + "e-" + decimals);
