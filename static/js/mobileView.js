@@ -3,7 +3,7 @@ function setPages(){
     const width = screen.width;
 
     if(width < 768){
-        let normalPages = document.getElementsByClassName("web");
+        var normalPages = document.getElementsByClassName("web");
         [...normalPages].forEach(normalPage => {
             normalPage.remove();
             // normalPage.setAttribute("style","display: none;");
